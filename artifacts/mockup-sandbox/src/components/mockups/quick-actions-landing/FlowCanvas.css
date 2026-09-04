@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root {
+  --fc-bg: #F8F7F3;
+  --fc-dot: #D5D2C4;
+  --fc-green: #4E8A22;
+  --fc-green-light: #E8F2E1;
+  --fc-green-dark: #2B4E12;
+  --fc-ink: #2C3525;
+  --fc-ink-light: #64705B;
+  --fc-orange: #D27D46;
+  --fc-white: #FFFFFF;
+}
+
+.font-sans-fc {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.font-serif-fc {
+  font-family: 'Playfair Display', serif;
+}
+
+.fc-paper {
+  background-color: var(--fc-bg);
+  background-image:
+    linear-gradient(rgba(213,210,196,.22) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(213,210,196,.22) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 16px 16px;
+}
+
+.fc-ribbon {
+  /* Keep each route present from the first paint. The moving waypoint dots
+   * carry the "flowing" motion; waiting for a line-draw animation makes the
+   * map feel incomplete on a fast visit. */
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  animation: none;
+}
+
+/* The system map must be readable as soon as the page opens. Keep motion on
+ * the connective ribbons, not on essential navigation or information. */
+.fc-fade-in,
+.fc-fade-in-late {
+  opacity: 1;
+  animation: none;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(4px) scale(0.98);
+  }
+}
+
+.fc-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.fc-float-delay {
+  animation: float 6s ease-in-out 3s infinite;
+}
+
+.fc-node-button:focus-visible,
+.fc-chip-button:focus-visible,
+.fc-search-input:focus-visible {
+  outline: 2px solid var(--fc-orange);
+  outline-offset: 4px;
+}
+
+.fc-hub-ring {
+  animation: hubPulse 3.6s ease-in-out infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes hubPulse {
+  0%, 100% { opacity: .28; transform: scale(.92); }
+  50% { opacity: .72; transform: scale(1.08); }
+}
+
+@media (max-width: 768px) {
+  .fc-workspace {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}

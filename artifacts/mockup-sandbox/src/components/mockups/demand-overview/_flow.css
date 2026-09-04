@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+.flow-container {
+  font-family: 'Outfit', sans-serif;
+  --bg-color: #f8fafc;
+  --chart-color: #3b82f6;
+  --chart-gradient-start: rgba(59, 130, 246, 0.4);
+  --chart-gradient-end: rgba(59, 130, 246, 0.0);
+  background-color: var(--bg-color);
+}
+
+.flow-card-blur {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.timeline-dot {
+  position: relative;
+}
+.timeline-dot::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border: 2px solid var(--chart-color);
+  border-radius: 50%;
+  z-index: 10;
+}

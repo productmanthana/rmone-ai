@@ -1,0 +1,27 @@
+.skyline-chart-wrapper .recharts-cartesian-grid-horizontal line {
+  stroke: #e2e8f0;
+  stroke-width: 1px;
+}
+.skyline-chart-wrapper .recharts-cartesian-grid-vertical line {
+  display: none;
+}
+.skyline-chart-wrapper .recharts-tooltip-cursor {
+  fill: #f8fafc;
+}
+.skyline-text-gradient {
+  background: linear-gradient(to right, #0f172a, #334155);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skyline-text-gradient-accent {
+  background: linear-gradient(to right, #2563eb, #4f46e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skyline-glass {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}

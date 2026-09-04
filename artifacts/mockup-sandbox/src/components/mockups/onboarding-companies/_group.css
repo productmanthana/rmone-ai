@@ -1,0 +1,54 @@
+/* Design tokens copied from artifacts/rmone-web/src/index.css so extracted
+   components match the main app's look exactly. Import this in every file
+   in this group. Do not edit the global sandbox index.css. */
+
+:root {
+  --button-outline: rgba(255,255,255, .10);
+  --badge-outline: rgba(255,255,255, .05);
+  --opaque-button-border-intensity: 9;
+  --elevate-1: rgba(255,255,255, .04);
+  --elevate-2: rgba(255,255,255, .09);
+
+  --background: 207 31% 21%;        /* #253746 dark navy */
+  --foreground: 0 0% 100%;          /* #FFFFFF text */
+  --border: 207 31% 30%;
+
+  --card: 207 31% 26%;              /* #2E4557 card surface */
+  --card-foreground: 0 0% 100%;
+  --card-border: 207 31% 32%;
+
+  --popover: 207 31% 26%;
+  --popover-foreground: 0 0% 100%;
+  --popover-border: 207 31% 32%;
+
+  --primary: 82 49% 44%;            /* #6BA539 green */
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 207 31% 30%;
+  --secondary-foreground: 0 0% 100%;
+
+  --muted: 207 31% 28%;
+  --muted-foreground: 207 12% 75%;
+
+  --accent: 20 81% 53%;             /* #E87722 orange */
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 20 81% 53%;
+  --destructive-foreground: 0 0% 100%;
+
+  --input: 207 31% 32%;
+  --ring: 82 49% 44%;
+
+  --rm-muted: rgba(255,255,255,0.65);
+  --rm-green: #6BA539;
+
+  --app-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Helvetica Neue', Arial, sans-serif;
+  --radius: .5rem;
+}
+
+.onboarding-companies-root {
+  font-family: var(--app-font-sans);
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  -webkit-font-smoothing: antialiased;
+}

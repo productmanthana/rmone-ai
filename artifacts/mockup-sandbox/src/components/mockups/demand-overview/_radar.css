@@ -1,0 +1,42 @@
+:root {
+  --radar-bg: #f8fafc;
+  --radar-card: #ffffff;
+  --radar-border: #e2e8f0;
+  --radar-text: #0f172a;
+  --radar-text-muted: #64748b;
+  
+  --radar-accent-1: #3b82f6; /* Blue */
+  --radar-accent-2: #8b5cf6; /* Indigo */
+  --radar-accent-3: #d946ef; /* Purple */
+  --radar-accent-4: #ec4899; /* Pink */
+  --radar-accent-5: #f43f5e; /* Rose */
+  --radar-accent-6: #f97316; /* Orange */
+  --radar-accent-7: #eab308; /* Yellow */
+  
+  --radar-danger: #ef4444;
+  --radar-warning: #f59e0b;
+  --radar-success: #10b981;
+}
+
+.radar-container {
+  background-color: var(--radar-bg);
+  color: var(--radar-text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.radar-card {
+  background-color: var(--radar-card);
+  border: 1px solid var(--radar-border);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  border-radius: 1rem;
+}
+
+.radar-urgent-card {
+  background: linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%);
+  border: 1px solid #fecdd3;
+}
+
+.radar-warning-card {
+  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+  border: 1px solid #fde68a;
+}

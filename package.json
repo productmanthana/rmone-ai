@@ -1,0 +1,30 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "node scripts/check-pnpm-install.cjs",
+    "build": "pnpm run typecheck && pnpm -r --if-present run build",
+    "typecheck:libs": "tsc --build",
+    "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck",
+    "build:vm": "cross-env BASE_PATH=/ PORT=5000 pnpm --filter @workspace/rmone-web run build && pnpm --filter @workspace/api-server run build",
+    "start:vm": "cross-env SERVE_WEB_DIR=artifacts/rmone-web/dist/public node artifacts/api-server/dist/index.mjs",
+    "start:local:windows": "powershell -ExecutionPolicy Bypass -File scripts/start-local.ps1",
+    "understand": "pnpm --filter @workspace/scripts run understand",
+    "understand:summary": "pnpm --filter @workspace/scripts run understand -- --summary"
+  },
+  "private": true,
+  "devDependencies": {
+    "@sparticuz/chromium": "^147.0.2",
+    "cross-env": "^10.1.0",
+    "docx": "^9.6.1",
+    "pdfkit": "^0.18.0",
+    "prettier": "^3.8.1",
+    "puppeteer-core": "^24.42.0",
+    "sharp": "^0.34.5",
+    "typescript": "~5.9.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

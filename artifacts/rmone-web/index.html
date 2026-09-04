@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>RM ONE</title>
+    <!-- Use the square brand mark for browser/app icons; the full wordmark is
+         intentionally kept out of these tiny slots so it does not render as
+         a compressed unreadable strip. -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=2" />
+    <link rel="apple-touch-icon" href="./favicon.svg?v=2" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body style="background-color:#253746;margin:0;">
+    <div id="root">
+      <!-- Pre-React boot indicator: shows while the JS bundle is still
+           downloading/parsing so the user never sees a blank navy screen.
+           Removed automatically as soon as React mounts and replaces #root. -->
+      <div style="position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;font-family:Inter,system-ui,sans-serif;color:#9aa4ad;">
+        <div style="width:36px;height:36px;border-radius:50%;border:3px solid rgba(169,194,63,0.25);border-top-color:#A9C23F;animation:rmone-boot-spin 0.9s linear infinite;"></div>
+        <div style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;font-weight:600;">RM ONE · loading</div>
+      </div>
+      <style>@keyframes rmone-boot-spin{to{transform:rotate(360deg);}}</style>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

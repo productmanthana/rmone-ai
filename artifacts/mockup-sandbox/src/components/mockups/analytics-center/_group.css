@@ -1,0 +1,31 @@
+/* RM ONE theme tokens — mirror of artifacts/rmone-web/src/index.css */
+.rmone-analytics {
+  --rm-bg: #253746;
+  --rm-panel: #2E4557;
+  --rm-panel-soft: #345066;
+  --rm-panel-hover: #3E5C75;
+  --rm-panel-border: rgba(255, 255, 255, 0.14);
+  --rm-text: #FFFFFF;
+  --rm-text-muted: rgba(255, 255, 255, 0.65);
+  --rm-text-faint: rgba(255, 255, 255, 0.50);
+  --rm-shadow: 0 6px 22px rgba(0, 0, 0, 0.35);
+  --rm-green: #6BA539;
+  --rm-green-soft: rgba(107, 165, 57, 0.16);
+  --rm-green-ink: #A8D672;
+  --rm-ink-red: #F87171;
+  --rm-ink-orange: #FB923C;
+  --rm-ink-violet: #A78BFA;
+  --rm-accent-blue: #38BDF8;
+  --rm-health-good: #84CC16;
+  --rm-health-warn: #FB923C;
+  --rm-health-bad: #F87171;
+  --rm-brand-navy: #6B99BB;
+  --rm-brand-green: #8EC94A;
+  --rm-brand-lime: #C4D44A;
+  --rm-brand-orange: #F0A842;
+
+  background: var(--rm-bg);
+  color: var(--rm-text);
+  font-family: Inter, system-ui, sans-serif;
+  color-scheme: dark;
+}

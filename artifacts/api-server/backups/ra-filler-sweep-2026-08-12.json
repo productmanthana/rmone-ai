@@ -1,0 +1,189 @@
+[
+ {
+  "ID": "19703547",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-07-29T00:00:00.000Z",
+  "AllocationEndDate": "2026-08-03T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19703549",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-08-10T00:00:00.000Z",
+  "AllocationEndDate": "2026-08-15T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19703551",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-08-24T00:00:00.000Z",
+  "AllocationEndDate": "2026-08-29T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19703552",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-08-31T00:00:00.000Z",
+  "AllocationEndDate": "2026-09-05T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19703553",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-09-07T00:00:00.000Z",
+  "AllocationEndDate": "2026-09-12T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19703554",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-09-14T00:00:00.000Z",
+  "AllocationEndDate": "2026-09-19T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19707796",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-08-31T00:00:00.000Z",
+  "AllocationEndDate": "2026-09-06T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19707797",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-09-07T00:00:00.000Z",
+  "AllocationEndDate": "2026-09-13T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19707799",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-09-21T00:00:00.000Z",
+  "AllocationEndDate": "2026-09-27T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19707800",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-09-28T00:00:00.000Z",
+  "AllocationEndDate": "2026-10-04T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19707801",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-10-05T00:00:00.000Z",
+  "AllocationEndDate": "2026-10-11T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19703555",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-09-21T00:00:00.000Z",
+  "AllocationEndDate": "2026-09-26T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19703556",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-09-28T00:00:00.000Z",
+  "AllocationEndDate": "2026-10-03T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19703557",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-10-05T00:00:00.000Z",
+  "AllocationEndDate": "2026-10-10T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19707791",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-07-29T00:00:00.000Z",
+  "AllocationEndDate": "2026-08-04T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19707793",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-08-10T00:00:00.000Z",
+  "AllocationEndDate": "2026-08-16T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ },
+ {
+  "ID": "19707795",
+  "TenantID": "07160b5c-7a8f-5e55-84ce-7499c981cb87",
+  "TicketId": "OPP-2026-1947",
+  "PctAllocation": 120,
+  "AllocationHour": 0,
+  "AllocationStartDate": "2026-08-24T00:00:00.000Z",
+  "AllocationEndDate": "2026-08-30T00:00:00.000Z",
+  "EffUser": "b9b87b98-6a57-46a1-a760-aa9cfada6af0",
+  "ResourceWorkItemLookup": "38884"
+ }
+]

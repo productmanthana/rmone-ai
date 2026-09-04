@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700&display=swap");
+
+/* RM ONE semantic dark-theme baseline, extracted from the web application. */
+:root,
+.navigation-settings-current {
+  --background: 207 31% 21%;
+  --foreground: 0 0% 100%;
+  --border: 207 31% 30%;
+  --input: 207 31% 32%;
+  --ring: 82 49% 44%;
+  --card: 207 31% 26%;
+  --card-foreground: 0 0% 100%;
+  --card-border: 207 31% 32%;
+  --popover: 207 31% 26%;
+  --popover-foreground: 0 0% 100%;
+  --popover-border: 207 31% 32%;
+  --primary: 82 49% 44%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 207 31% 30%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 207 31% 28%;
+  --muted-foreground: 207 12% 75%;
+  --accent: 20 81% 53%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 20 81% 53%;
+  --destructive-foreground: 0 0% 100%;
+  --sidebar: 207 35% 16%;
+  --sidebar-foreground: 0 0% 100%;
+  --sidebar-border: 207 31% 26%;
+  --sidebar-primary: 82 49% 44%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 207 31% 26%;
+  --sidebar-accent-foreground: 0 0% 100%;
+  --sidebar-ring: 82 49% 44%;
+  --rm-bg: #253746;
+  --rm-panel: #2e4557;
+  --rm-panel-border: rgba(255,255,255,.14);
+  --rm-text: #fff;
+  --rm-text-muted: rgba(255,255,255,.65);
+  --rm-green: #6ba539;
+  --app-font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
+}
+
+.dark,
+.dark .navigation-settings-current {
+  --background: 207 31% 21%;
+  --foreground: 0 0% 100%;
+  --border: 207 31% 30%;
+  --input: 207 31% 32%;
+  --ring: 82 49% 44%;
+  --card: 207 31% 26%;
+  --card-foreground: 0 0% 100%;
+  --popover: 207 31% 26%;
+  --popover-foreground: 0 0% 100%;
+  --primary: 82 49% 44%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 207 31% 28%;
+  --muted-foreground: 207 12% 75%;
+  --destructive: 20 81% 53%;
+  --destructive-foreground: 0 0% 100%;
+}
+
+.navigation-settings-current {
+  box-sizing: border-box;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--app-font-sans);
+  font-feature-settings: "cv11", "ss01", "ss03", "calt", "liga";
+}
+.navigation-settings-current *, .navigation-settings-current *::before, .navigation-settings-current *::after { box-sizing: border-box; }
+.navigation-settings-current button, .navigation-settings-current input { font: inherit; }
+.navigation-settings-current button:focus-visible, .navigation-settings-current input:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 2px; }
+@keyframes navigation-settings-spin { to { transform: rotate(360deg); } }
+@media (max-width: 680px) {
+  .navigation-settings-current { padding: 22px 16px !important; }
+}

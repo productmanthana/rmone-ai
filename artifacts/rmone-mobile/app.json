@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "RM ONE",
+    "slug": "rmone-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "rmone-mobile",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#253746"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.rmone.mobileapp",
+      "buildNumber": "1",
+      "infoPlist": {
+        "UIBackgroundModes": ["remote-notification"],
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "RM ONE uses the camera to attach photos to project records and inbox messages.",
+        "NSPhotoLibraryUsageDescription": "RM ONE accesses your photo library so you can attach images to project records and inbox messages.",
+        "NSPhotoLibraryAddUsageDescription": "RM ONE saves project attachments to your photo library when you choose to download them.",
+        "NSMicrophoneUsageDescription": "RM ONE uses the microphone when you record voice notes for project updates.",
+        "NSLocationWhenInUseUsageDescription": "RM ONE uses your location to show nearby project sites and tag records with the current city.",
+        "NSDocumentsFolderUsageDescription": "RM ONE accesses your Documents folder so you can attach files to project records.",
+        "NSFaceIDUsageDescription": "RM ONE uses Face ID to keep your account secure."
+      }
+    },
+    "android": {
+      "package": "com.rmone.mobileapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#1B3035"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://superrmone.vyaasai.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "sounds": ["./assets/notification.wav"]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

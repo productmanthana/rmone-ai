@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+.pulse-wrapper {
+  --pulse-accent: 251 100% 68%; /* #635bff stripe blue */
+  --pulse-bg: 0 0% 100%;
+  --pulse-surface: 0 0% 98%;
+  --pulse-border: 220 13% 91%;
+  
+  --pulse-text-main: 222 47% 11%;
+  --pulse-text-muted: 215 16% 47%;
+  
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: hsl(var(--pulse-bg));
+  color: hsl(var(--pulse-text-main));
+}
+
+.pulse-hero-number {
+  font-feature-settings: "tnum" on, "lnum" on;
+  letter-spacing: -0.04em;
+}
+
+.pulse-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.02), 0 1px 4px rgba(0, 0, 0, 0.02);
+  border: 1px solid hsl(var(--pulse-border));
+}
+
+.pulse-pill {
+  background: hsl(var(--pulse-surface));
+  border: 1px solid hsl(var(--pulse-border));
+}

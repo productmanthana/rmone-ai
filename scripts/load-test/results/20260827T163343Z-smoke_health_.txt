@@ -1,0 +1,34 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 61, reused 42, downloaded 16, added 0
+Progress: resolved 61, reused 42, downloaded 19, added 0
+Progress: resolved 62, reused 42, downloaded 19, added 0
+ WARN  1 deprecated subdependencies found: uuid@8.3.2
+Packages: +62
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 62, reused 42, downloaded 20, added 62, done
+Running 30s test @ http://rmone-pilot-193501891377.us-east-1.elasticbeanstalk.com/health
+25 connections
+
+
+┌─────────┬────────┬────────┬────────┬────────┬───────────┬──────────┬────────┐
+│ Stat    │ 2.5%   │ 50%    │ 97.5%  │ 99%    │ Avg       │ Stdev    │ Max    │
+├─────────┼────────┼────────┼────────┼────────┼───────────┼──────────┼────────┤
+│ Latency │ 214 ms │ 216 ms │ 226 ms │ 235 ms │ 221.24 ms │ 20.45 ms │ 465 ms │
+└─────────┴────────┴────────┴────────┴────────┴───────────┴──────────┴────────┘
+┌───────────┬───────┬───────┬─────────┬─────────┬─────────┬────────┬───────┐
+│ Stat      │ 1%    │ 2.5%  │ 50%     │ 97.5%   │ Avg     │ Stdev  │ Min   │
+├───────────┼───────┼───────┼─────────┼─────────┼─────────┼────────┼───────┤
+│ Req/Sec   │ 75    │ 75    │ 113     │ 125     │ 112.34  │ 8.46   │ 75    │
+├───────────┼───────┼───────┼─────────┼─────────┼─────────┼────────┼───────┤
+│ Bytes/Sec │ 23 kB │ 23 kB │ 34.7 kB │ 38.4 kB │ 34.5 kB │ 2.6 kB │ 23 kB │
+└───────────┴───────┴───────┴─────────┴─────────┴─────────┴────────┴───────┘
+┌──────┬───────┐
+│ Code │ Count │
+├──────┼───────┤
+│ 200  │ 3370  │
+└──────┴───────┘
+
+Req/Bytes counts sampled once per second.
+# of samples: 30
+
+3k requests in 30.03s, 1.03 MB read

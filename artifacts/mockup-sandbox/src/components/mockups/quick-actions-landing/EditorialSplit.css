@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+.editorial-split-wrapper {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  --brand-green: #295213;
+  --brand-light: #F4F7F2;
+  --brand-accent: #65B32E;
+}
+
+.font-editorial {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Add some animations */
+@keyframes slideUpFade {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-slide-up {
+  animation: slideUpFade 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.stagger-1 { animation-delay: 0.1s; opacity: 0; }
+.stagger-2 { animation-delay: 0.25s; opacity: 0; }
+.stagger-3 { animation-delay: 0.4s; opacity: 0; }
+.stagger-4 { animation-delay: 0.55s; opacity: 0; }
+.stagger-5 { animation-delay: 0.7s; opacity: 0; }
+.stagger-6 { animation-delay: 0.85s; opacity: 0; }

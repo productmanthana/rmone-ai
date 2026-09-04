@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap');
+
+.heatmap-container {
+  font-family: 'Inter', sans-serif;
+}
+
+.heatmap-mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom color ramp for heatmap */
+.heatmap-cell-0 { background-color: #f8fafc; }
+.heatmap-cell-1 { background-color: #eff6ff; }
+.heatmap-cell-2 { background-color: #dbeafe; }
+.heatmap-cell-3 { background-color: #bfdbfe; }
+.heatmap-cell-4 { background-color: #93c5fd; }
+.heatmap-cell-5 { background-color: #60a5fa; }
+.heatmap-cell-6 { background-color: #3b82f6; }
+.heatmap-cell-7 { background-color: #2563eb; }
+.heatmap-cell-8 { background-color: #1d4ed8; color: white; }
+.heatmap-cell-9 { background-color: #1e40af; color: white; }
+.heatmap-cell-10 { background-color: #1e3a8a; color: white; }
+
+.heatmap-grid {
+  display: grid;
+  grid-template-columns: 200px repeat(12, 1fr) 100px;
+  gap: 4px;
+}
+
+.heatmap-col-highlight {
+  position: relative;
+}
+
+.heatmap-col-highlight::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  bottom: -8px;
+  left: -4px;
+  right: -4px;
+  border: 2px solid #3b82f6;
+  border-radius: 6px;
+  pointer-events: none;
+  z-index: 10;
+}
